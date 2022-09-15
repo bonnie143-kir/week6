@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ChatComponent implements OnInit {
   messagecontent:string="";
-  messages: string="";
+  messages: string[]=[];
   rooms=[];
   roomslist:string="";
   roomnotice:string="";
